@@ -1,0 +1,23 @@
+{
+  "name": "psbo-r7-squad",
+  "version": "1.0.0",
+  "description": "Pengembangan Sistem Berorientasi Objek",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imammulh/psbo-r7-squad.git"
+  },
+  "author": "W.C.K.D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imammulh/psbo-r7-squad/issues"
+  },
+  "homepage": "https://github.com/Imammulh/psbo-r7-squad#readme",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}
