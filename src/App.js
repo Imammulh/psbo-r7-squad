@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import Login from './pages/user/Login';
 import Dashboard from './pages/user/Dashboard';
+import LoginAdmin from './pages/admin/LoginAdmin';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </Route>
       <Route path="/dashboard">
         <Dashboard />
+      </Route>
+      <Route path="/login-admin">
+        <LoginAdmin />
       </Route>
     </Switch>
   );
