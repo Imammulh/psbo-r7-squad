@@ -7,13 +7,13 @@
 
 ## Lingkungan Pengembangan
 ### Software
-    - Visual Studio Code
-    - Postman
+- Visual Studio Code
+- Postman
 ### Hardware
 ### Tech Stack
-    - React JS
-    - Node JS
-    - Mongo DB
+- React JS
+- Node JS
+- Mongo DB
 
 ## Konsep OOP
 
