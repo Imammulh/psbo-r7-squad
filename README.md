@@ -4,6 +4,10 @@
 
 ## User Analysis
 ### User Story
+> Sebagai Mahasiswa IPB saya ingin mengajukan insentif perlombaan yang telah saya menangkan sehingga saya bisa mendapat uang insentif yang telah dijanjikan oleh IPB.
+> Sebagai Mahasiswa IPB saya ingin mendapat informasi lebih lanjut perihal pengajuan insentif lomba saya sehingga saya mengetahui apakah insentif sudah diberikan atau belum.
+> Sebagai pegawai administrasi insentif lomba IPB, saya ingin membuat formulir pengajuan insentif lomba sehingga dokumen persyaratan terpusat dalam satu tempat
+> Sebagai pegawai administrasi insentif lomba IPB, saya ingin lebih mudah untuk meninjau dokumen persyaratan, melakukan seleksi proposal, dan memberi informasi lanjutan terkait pengiriman insentif
 
 ## Lingkungan Pengembangan
 ### Software
@@ -25,6 +29,8 @@
 
 ### Activity Diagram
 ### Class Diagram
+![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
+
 ### Arsitektur Sistem
 ### Fungsi Utama
 ### Fungsi CRUD
