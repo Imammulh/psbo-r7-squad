@@ -1,0 +1,11 @@
+.a {
+  text-decoration: none !important;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  color: #042040;
+}
