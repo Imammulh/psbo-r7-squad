@@ -4,15 +4,20 @@
 
 ## User Analysis
 ### User Story
-> Sebagai Mahasiswa IPB saya ingin mengajukan insentif perlombaan yang telah saya menangkan sehingga saya bisa mendapat uang insentif yang telah dijanjikan oleh IPB.
-> Sebagai Mahasiswa IPB saya ingin mendapat informasi lebih lanjut perihal pengajuan insentif lomba saya sehingga saya mengetahui apakah insentif sudah diberikan atau belum.
-> Sebagai pegawai administrasi insentif lomba IPB, saya ingin membuat formulir pengajuan insentif lomba sehingga dokumen persyaratan terpusat dalam satu tempat
-> Sebagai pegawai administrasi insentif lomba IPB, saya ingin lebih mudah untuk meninjau dokumen persyaratan, melakukan seleksi proposal, dan memberi informasi lanjutan terkait pengiriman insentif
+- Sebagai Mahasiswa IPB saya ingin mengajukan insentif perlombaan yang telah saya menangkan sehingga saya bisa mendapat uang insentif yang telah dijanjikan oleh IPB.
+- Sebagai Mahasiswa IPB saya ingin mendapat informasi lebih lanjut perihal pengajuan insentif lomba saya sehingga saya mengetahui apakah insentif sudah diberikan atau belum.
+- Sebagai pegawai administrasi insentif lomba IPB, saya ingin membuat formulir pengajuan insentif lomba sehingga dokumen persyaratan terpusat dalam satu tempat
+- Sebagai pegawai administrasi insentif lomba IPB, saya ingin lebih mudah untuk meninjau dokumen persyaratan, melakukan seleksi proposal, dan memberi informasi lanjutan terkait pengiriman insentif
 
 ## Lingkungan Pengembangan
 ### Software
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="80" height="80" />
 - Visual Studio Code
+
+
+<img src="https://miro.medium.com/max/3010/1*QOx_tPV5wJnhTzAGhfIiLA.png"  height="80" />
 - Postman
+
 ### Hardware
 ### Tech Stack
 - React JS
