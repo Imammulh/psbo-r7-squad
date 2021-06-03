@@ -23,6 +23,8 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 - Postman
 
 ### Hardware
+
+
 ### Tech Stack
 - React JS
 - Node JS
@@ -42,6 +44,7 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ### Class Diagram
 ![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
 
+### Entity Relationship Diagram
 ### Arsitektur Sistem
 ### Fungsi Utama
 ### Fungsi CRUD
