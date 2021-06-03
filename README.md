@@ -37,7 +37,7 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ![Project PSBO-Use case](https://user-images.githubusercontent.com/46121487/120478195-cc200400-c3d6-11eb-82ed-eb47a7e8833a.png)
 
 ### Activity Diagram
-
+![Activity Diagram](https://user-images.githubusercontent.com/47895564/120601941-b6f9b280-c474-11eb-8aaa-89d3de9bed3d.png)
 
 ### Class Diagram
 ![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
