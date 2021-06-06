@@ -1,4 +1,4 @@
-import MyCard from "../ui/MyCard";
+import MyCard from "../UI/MyCard";
 import classes from "./PengajuanItem.module.css";
 
 function PengajuanItem(props) {
@@ -6,7 +6,7 @@ function PengajuanItem(props) {
     <MyCard>
       <p className={classes.title}>{props.title}</p>
       <h2 className={classes.jumlah}>{props.jumlah}</h2>
-      <p className={classes.bottomText}>/Mahasiswa</p>
+      {props.admin && <p className={classes.bottomText}>/Mahasiswa</p>}
     </MyCard>
   );
 }

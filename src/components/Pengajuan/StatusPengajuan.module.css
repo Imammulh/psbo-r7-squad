@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid #ebf0f5;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.badge {
+  border-radius: 4px;
+  width: 80px;
+  text-align: center;
+  padding: 4px 12px;
+}
+
+.accepted {
+  background: #42b757;
+  color: #ffffff;
+}
+
+.pending {
+  background: #ebf0f5;
+  color: #042040;
+}
+
+.status {
+  padding-left: 6px;
+  letter-spacing: 0.25px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #042040;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #042040;
+}
+
+.desc {
+  color: #96a3b3;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+}

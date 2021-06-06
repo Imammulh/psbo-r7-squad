@@ -1,4 +1,4 @@
-import NavDashboardAdmin from "../ui/NavDashboardAdmin";
+import NavDashboardAdmin from "../UI/NavDashboardAdmin";
 
 function DashboardAdminLayout(props) {
   return (
