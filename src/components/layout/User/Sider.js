@@ -5,7 +5,7 @@ import { HomeFilled, UserOutlined } from "@ant-design/icons";
 import { FaUser } from "react-icons/fa";
 import { IoDocumentText } from "react-icons/io5";
 
-import classes from "./Menu.module.css";
+import classes from "./Layout.module.css";
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -37,7 +37,7 @@ function SiderMenu(props) {
       <Menu
         style={{ backgroundColor: "transparent", border: 0, marginTop: "16px" }}
         mode='inline'
-        defaultSelectedKeys={["1"]}
+        defaultSelectedKeys={[]}
       >
         <Menu.Item key='1' icon={<HomeFilled />}>
           <Link to='/'>Dashboard</Link>

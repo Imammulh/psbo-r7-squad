@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro";
   box-sizing: border-box;
 }
 
@@ -26,6 +26,15 @@ body {
   padding: 0;
   margin-left: 250px;
   transition: margin 0.3s ease;
+}
+
+.header {
+  font-size: 24px !important;
+  font-weight: 600;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ebf0f5;
+  color: #042040;
 }
 
 .ant-layout-sider-zero-width-trigger {

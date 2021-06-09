@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Layout, Button } from "antd";
 
-import classes from "./Menu.module.css";
+import classes from "./Layout.module.css";
 
 const { Header } = Layout;
 
@@ -14,7 +14,7 @@ function HeaderMenu() {
         size='medium'
         style={{
           backgroundColor: "#F13426",
-          border: "border: 1px solid #C22D22",
+          border: "1px solid #C22D22",
           borderRadius: "4px",
           fontWeight: 600,
         }}
