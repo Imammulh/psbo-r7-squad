@@ -1,0 +1,16 @@
+.backButton {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #042040;
+}
+
+.title {
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  color: #042040;
+}

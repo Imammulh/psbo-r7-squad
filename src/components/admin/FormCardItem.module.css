@@ -1,12 +1,15 @@
 .a {
   text-decoration: none !important;
+  color: white;
 }
-
+.a:hover {
+  color: white;
+}
 .title {
   margin-bottom: 1rem;
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 140%;
   color: #042040;
 }

@@ -1,10 +1,13 @@
+import { Container } from "react-bootstrap";
 import NavDashboardAdmin from "../ui/NavDashboardAdmin";
 
 function DashboardAdminLayout(props) {
   return (
     <div>
       <NavDashboardAdmin />
-      <main>{props.children}</main>
+      <Container>
+        <main>{props.children}</main>
+      </Container>
     </div>
   );
 }

@@ -1,6 +1,14 @@
 import { Form, Button } from "react-bootstrap";
 
 function LoginAdminForm() {
+  function ShowPasswordHandler() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
   return (
     <div>
       <Form>
@@ -11,10 +19,18 @@ function LoginAdminForm() {
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Masukkan password" />
+          <Form.Control
+            type="password"
+            placeholder="Masukkan password"
+            id="myInput"
+          />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Tampilkan password" />
+          <Form.Check
+            type="checkbox"
+            label="Tampilkan password"
+            onClick={ShowPasswordHandler}
+          />
         </Form.Group>
         <div className="d-grid">
           <Button variant="primary" type="submit">
