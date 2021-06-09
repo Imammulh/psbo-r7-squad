@@ -1,4 +1,4 @@
-import MyCard from "../UI/MyCard";
+import MyCard from "../ui/MyCard";
 import classes from "./PengajuanItem.module.css";
 
 function PengajuanItem(props) {

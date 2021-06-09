@@ -1,4 +1,4 @@
-import MyCard from "../UI/MyCard";
+import MyCard from "../ui/MyCard";
 import { Badge } from "react-bootstrap";
 import classes from "./FormCardItem.module.css";
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
-import MyCard from "../../../components/UI/MyCard";
+import MyCard from "../../../components/ui/MyCard";
 import classes from "./Biodata.module.css";
 
 function Biodata() {
@@ -8,11 +8,11 @@ function Biodata() {
     <MyCard>
       <div className={classes.header}>
         <h2 className={classes.title}>Biodata</h2>
-        <Link to='/biodata/edit'>
+        <Link to="/biodata/edit">
           <Button className={classes.btnPrimary}>Ubah</Button>
         </Link>
       </div>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           Nama Lengkap <span className={classes.colon}>:</span>
         </Col>
@@ -20,7 +20,7 @@ function Biodata() {
           Imam Mulhaq
         </Col>
       </Row>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           NIM <span className={classes.colon}>:</span>
         </Col>
@@ -28,7 +28,7 @@ function Biodata() {
           G64180063
         </Col>
       </Row>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           Fakultas <span className={classes.colon}>:</span>
         </Col>
@@ -36,7 +36,7 @@ function Biodata() {
           Matematika dan Ilmu Pengetahuan Alam
         </Col>
       </Row>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           Department <span className={classes.colon}>:</span>
         </Col>
@@ -44,7 +44,7 @@ function Biodata() {
           Ilmu Komputer
         </Col>
       </Row>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           Email <span className={classes.colon}>:</span>
         </Col>
@@ -52,7 +52,7 @@ function Biodata() {
           emailimam@gmail.com
         </Col>
       </Row>
-      <Row className='d-flex mb-2 align-items-center'>
+      <Row className="d-flex mb-2 align-items-center">
         <Col className={classes.label}>
           No Handphone <span className={classes.colon}>:</span>
         </Col>
@@ -60,7 +60,7 @@ function Biodata() {
           082288983318
         </Col>
       </Row>
-      <Row className='d-flex align-items-center'>
+      <Row className="d-flex align-items-center">
         <Col className={classes.label}>
           No Rekening <span className={classes.colon}>:</span>
         </Col>

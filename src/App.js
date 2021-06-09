@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import Login from "./pages/user/Login";
-import PrivateLayout from "./components/Layout/User/PrivateLayout";
+import PrivateLayout from "./components/layout/User/PrivateLayout";
 import LoginAdmin from "./pages/admin/LoginAdmin";
 import DashboardAdmin from "./pages/admin/DashboardAdmin";
 import InsentifNasional from "./pages/admin/InsentifNasional";
