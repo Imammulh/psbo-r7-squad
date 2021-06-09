@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Sistem Insentif Lomba IPB-P2-Kelompok ... 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deskripsi Aplikasi
+Alur proses pengajuan bantuan dana dan insentif lomba yang dirasa sulit berdampak terhadap peningkatan prestasi civitas IPB. Menyadari hal itu, perlu adanya sistem yang membantu mengatasi masalah ini. Oleh karena itu kami mengusulkan adanya fitur Insentif pada website prestasi.ipb.ac.id. Dengan adanya fitur Insentif ini civitas IPB dapat mengajukan insentif perlombaan yang telah dimenangkan sehingga bisa mendapatkan uang insentif yang telah dijanjikan pihak kampus. Selain itu civitas IPB juga bisa mendapatkan informasi lebih lanjut terkait pengajuan insentif lomba yang diikuti sehingga bisa melacak apakah insentif sudah diberikan atau belum karena ada kendala tertentu. 
+Apabila uang insentif telah dikirim pihak kampus nantinya mahasiswa yang melakukan pengajuan akan mendapatkan email notifikasi bahwa uang insentif sudah berhasil dikirim. 
+Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pada website prestasi.ipb.ac.id. Sehingga bisa menjadi bahan evaluasi untuk pengajuan dana insentif kedepannya. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## User Analysis
+### User Story
+- Sebagai Mahasiswa IPB saya ingin mengajukan insentif perlombaan yang telah saya menangkan sehingga saya bisa mendapat uang insentif yang telah dijanjikan oleh IPB.
+- Sebagai Mahasiswa IPB saya ingin mendapat informasi lebih lanjut perihal pengajuan insentif lomba saya sehingga saya mengetahui apakah insentif sudah diberikan atau belum.
+- Sebagai pegawai administrasi insentif lomba IPB, saya ingin membuat formulir pengajuan insentif lomba sehingga dokumen persyaratan terpusat dalam satu tempat
+- Sebagai pegawai administrasi insentif lomba IPB, saya ingin lebih mudah untuk meninjau dokumen persyaratan, melakukan seleksi proposal, dan memberi informasi lanjutan terkait pengiriman insentif
 
-### `npm start`
+## Lingkungan Pengembangan
+### Software
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="80" height="80" />
+- Visual Studio Code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="https://miro.medium.com/max/3010/1*QOx_tPV5wJnhTzAGhfIiLA.png"  height="80" />
+- Postman
 
-### `npm test`
+### Hardware
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Tech Stack
+- React JS
+- Node JS
+- Mongo DB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Konsep OOP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tipe Design Pengembangan
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Hasil & Pembahasan
+### Use Case Diagram
+![Project PSBO-Use case](https://user-images.githubusercontent.com/46121487/120478195-cc200400-c3d6-11eb-82ed-eb47a7e8833a.png)
 
-### `npm run eject`
+### Activity Diagram
+![Activity Diagram](https://user-images.githubusercontent.com/47895564/120601941-b6f9b280-c474-11eb-8aaa-89d3de9bed3d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Class Diagram
+![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Entity Relationship Diagram
+### Arsitektur Sistem
+### Fungsi Utama
+### Fungsi CRUD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Hasil Implementasi
+### Screenshot Sistem
+### Link Aplikasi (Opsional)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Saran Pengembangan Selanjutnya
+## Job Desc

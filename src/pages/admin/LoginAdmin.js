@@ -1,5 +1,5 @@
-import LoginAdminLayout from "../../components/layout/LoginAdminLayout";
-import LoginAdminForm from "../../components/ui/LoginAdminForm";
+import LoginAdminLayout from "../../components/Layout/LoginAdminLayout";
+import LoginAdminForm from "../../components/UI/LoginAdminForm";
 
 function LoginAdmin() {
   return (
