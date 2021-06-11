@@ -47,7 +47,25 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ### Entity Relationship Diagram
 ### Arsitektur Sistem
 ### Fungsi Utama
+- Mahasiswa
+  - Membuat pengajuan insentif
+  - Menghapus pengajuan insentif
+  - Melihat progress pengajuan
+- Admin
+  - Melihat pengajuan insentif mahasiswa
+  - Mengubah status pengajuan mahasiswa
+  - Menghapus pengajuan mahasiswa
 ### Fungsi CRUD
+# CREATE Function
+- Membuat pengajuan insentif (Mahasiswa)
+# READ Function
+- Melihat progress pengajuan (Mahasiswa)
+- Melihat pengajuan insentif mahasiswa (Admin)
+# UPDATE Function
+- Mengubah status pengajuan mahasiswa (Admin)
+# DELETE Function
+- Menghapus pengajuan insentif (Mahasiswa)
+- Menghapus pengajuan mahasiswa (Admin)
 
 ## Hasil Implementasi
 ### Screenshot Sistem
