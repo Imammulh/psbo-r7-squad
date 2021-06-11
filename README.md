@@ -33,6 +33,7 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ## Konsep OOP
 
 ## Tipe Design Pengembangan
+Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern 
 
 ## Hasil & Pembahasan
 ### Use Case Diagram
@@ -56,14 +57,14 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
   - Mengubah status pengajuan mahasiswa
   - Menghapus pengajuan mahasiswa
 ### Fungsi CRUD
-# CREATE Function
+#### CREATE Function
 - Membuat pengajuan insentif (Mahasiswa)
-# READ Function
+#### READ Function
 - Melihat progress pengajuan (Mahasiswa)
 - Melihat pengajuan insentif mahasiswa (Admin)
-# UPDATE Function
+#### UPDATE Function
 - Mengubah status pengajuan mahasiswa (Admin)
-# DELETE Function
+#### DELETE Function
 - Menghapus pengajuan insentif (Mahasiswa)
 - Menghapus pengajuan mahasiswa (Admin)
 
