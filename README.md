@@ -43,9 +43,11 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 ![Activity Diagram](https://user-images.githubusercontent.com/47895564/120601941-b6f9b280-c474-11eb-8aaa-89d3de9bed3d.png)
 
 ### Class Diagram
-![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
+![Project PSBO-class diagram (3)](https://user-images.githubusercontent.com/46121487/121803318-1cb31f00-cc6b-11eb-86d9-851eb4a5a004.png)
 
 ### Entity Relationship Diagram
+![Project PSBO-class diagram (2)](https://user-images.githubusercontent.com/46121487/121803307-10c75d00-cc6b-11eb-8654-ed84afc2058c.png)
+
 ### Arsitektur Sistem
 ### Fungsi Utama
 - Mahasiswa
