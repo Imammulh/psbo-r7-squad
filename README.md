@@ -1,4 +1,4 @@
-# Sistem Insentif Lomba IPB-P2-Kelompok ... 
+# Sistem Insentif Lomba IPB-P2-Kelompok 10 
 
 ## Deskripsi Aplikasi
 Alur proses pengajuan bantuan dana dan insentif lomba yang dirasa sulit berdampak terhadap peningkatan prestasi civitas IPB. Menyadari hal itu, perlu adanya sistem yang membantu mengatasi masalah ini. Oleh karena itu kami mengusulkan adanya fitur Insentif pada website prestasi.ipb.ac.id. Dengan adanya fitur Insentif ini civitas IPB dapat mengajukan insentif perlombaan yang telah dimenangkan sehingga bisa mendapatkan uang insentif yang telah dijanjikan pihak kampus. Selain itu civitas IPB juga bisa mendapatkan informasi lebih lanjut terkait pengajuan insentif lomba yang diikuti sehingga bisa melacak apakah insentif sudah diberikan atau belum karena ada kendala tertentu. 
