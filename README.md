@@ -49,6 +49,8 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 ![Project PSBO-class diagram (2)](https://user-images.githubusercontent.com/46121487/121803307-10c75d00-cc6b-11eb-8654-ed84afc2058c.png)
 
 ### Arsitektur Sistem
+![Project PSBO-Arsitektur Sistem](https://user-images.githubusercontent.com/46121487/121877825-3f116f00-cd35-11eb-8051-0964dcff6748.png)
+
 ### Fungsi Utama
 - Mahasiswa
   - Membuat pengajuan insentif
