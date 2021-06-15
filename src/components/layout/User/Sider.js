@@ -1,9 +1,11 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Layout, Menu, Avatar } from "antd";
 import { useLocation } from "react-router-dom";
 import { HomeFilled, UserOutlined } from "@ant-design/icons";
 import { FaUser } from "react-icons/fa";
 import { IoDocumentText } from "react-icons/io5";
+import { UserContext } from "../../../context/UserContext";
 
 import classes from "./Layout.module.css";
 
@@ -11,7 +13,9 @@ const { Sider } = Layout;
 const { SubMenu } = Menu;
 
 function SiderMenu(props) {
+  const [user] = useContext(UserContext);
   const location = useLocation();
+  const pathname = location.pathname === "/biodata/edit" ? "/biodata" : location.pathname;
   return (
     <Sider
       breakpoint="lg"
@@ -32,10 +36,10 @@ function SiderMenu(props) {
     >
       <div className={classes.user}>
         <Avatar size={124} icon={<UserOutlined />} className="d-flex align-items-center justify-content-center" />
-        <h2>Nama</h2>
-        <p>Department</p>
+        <h2>{user.nama}</h2>
+        <p>{user.departemen}</p>
       </div>
-      <Menu style={{ backgroundColor: "transparent", border: 0, marginTop: "16px" }} mode="inline" defaultSelectedKeys={[`${location.pathname}`]}>
+      <Menu style={{ backgroundColor: "transparent", border: 0, marginTop: "16px" }} mode="inline" defaultSelectedKeys={[`${pathname}`]}>
         <Menu.Item key="/" icon={<HomeFilled />}>
           <NavLink to="/">Dashboard</NavLink>
         </Menu.Item>

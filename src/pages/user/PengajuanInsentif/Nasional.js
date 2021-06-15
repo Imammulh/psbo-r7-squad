@@ -74,7 +74,7 @@ function Nasional() {
               Anggota Tim <span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8} className="d-flex align-items-center">
-              <Button variant="primary" style={{ color: "white", background: "#1C7BD9", border: "1px solid #0061C1", borderRadius: "4px" }}>
+              <Button className={classes.smallBtn}>
                 <BsFillPersonPlusFill style={{ marginRight: "4px" }} />
                 Tambah
               </Button>
@@ -173,6 +173,14 @@ function Nasional() {
               <Form.Control type="file" />
             </Col>
           </Form.Group>
+          <Row>
+            <Col sm={2}></Col>
+            <Col>
+              <Button type="submit" className={`${classes.smallBtn} px-3 mt-3`}>
+                Submit
+              </Button>
+            </Col>
+          </Row>
         </Form>
       </MyCard>
     </UserLayout>

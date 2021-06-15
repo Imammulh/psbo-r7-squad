@@ -60,7 +60,7 @@ function Internasional() {
               Anggota Tim <span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8}>
-              <Button variant="primary" style={{ color: "white", background: "#1C7BD9", border: "1px solid #0061C1", borderRadius: "4px" }}>
+              <Button className={classes.smallBtn}>
                 <BsFillPersonPlusFill style={{ marginRight: "4px" }} />
                 Tambah
               </Button>
@@ -122,8 +122,9 @@ function Internasional() {
             <Form.Label column sm={2} className={classes.label}>
               Berkas Pendukung <span className={classes.colon}>:</span>
             </Form.Label>
-            <Col sm={8}>
-              <Form.Group as={Row} controlId="prestasi">
+            <Col sm={8} className="d-flex align-items-center">
+              <Form.Control type="file" />
+              {/* <Form.Group as={Row} controlId="prestasi">
                 <Form.Label column sm={2} className={classes.label}>
                   Sertifikat<span className={classes.colon}>:</span>
                 </Form.Label>
@@ -148,17 +149,25 @@ function Internasional() {
                 <Col sm={8} className="d-flex align-items-center">
                   <Form.Control type="file" />
                 </Col>
-              </Form.Group>
+              </Form.Group> */}
             </Col>
           </Form.Group>
-          <Form.Group as={Row} className="mb-3" controlId="prestasi">
+          {/* <Form.Group as={Row} className="mb-3" controlId="prestasi">
             <Form.Label column sm={2} className={classes.label}>
               Surat Izin Akademik<span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8} className="d-flex align-items-center">
               <Form.Control type="file" />
             </Col>
-          </Form.Group>
+          </Form.Group> */}
+          <Row>
+            <Col sm={2}></Col>
+            <Col>
+              <Button type="submit" className={`${classes.smallBtn} px-3 mt-3`}>
+                Submit
+              </Button>
+            </Col>
+          </Row>
         </Form>
       </MyCard>
     </UserLayout>
