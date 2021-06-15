@@ -1,4 +1,7 @@
-# Sistem Insentif Lomba IPB-P2-Kelompok ... 
+# 💰 Sistem Insentif Lomba IPB-P2-Kelompok 10 
+
+## Back-end
+[Back-end aplikasi](https://github.com/bimaaul/psbo-backend)
 
 ## Deskripsi Aplikasi
 Alur proses pengajuan bantuan dana dan insentif lomba yang dirasa sulit berdampak terhadap peningkatan prestasi civitas IPB. Menyadari hal itu, perlu adanya sistem yang membantu mengatasi masalah ini. Oleh karena itu kami mengusulkan adanya fitur Insentif pada website prestasi.ipb.ac.id. Dengan adanya fitur Insentif ini civitas IPB dapat mengajukan insentif perlombaan yang telah dimenangkan sehingga bisa mendapatkan uang insentif yang telah dijanjikan pihak kampus. Selain itu civitas IPB juga bisa mendapatkan informasi lebih lanjut terkait pengajuan insentif lomba yang diikuti sehingga bisa melacak apakah insentif sudah diberikan atau belum karena ada kendala tertentu. 
@@ -15,24 +18,52 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 
 ## Lingkungan Pengembangan
 ### Software
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="80" height="80" />
 - Visual Studio Code
-
-
-<img src="https://miro.medium.com/max/3010/1*QOx_tPV5wJnhTzAGhfIiLA.png"  height="80" />
 - Postman
+- Insomnia
+- Github
+- Edge
+- Chrome
+- Trello
 
 ### Hardware
+- Processors: intel i5-7200
+- Memory: RAM 8GB
+- Vga: NVIDIA Geforce 940MX
 
 
 ### Tech Stack
-- React JS
-- Node JS
-- Mongo DB
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Fungsi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MongoDB</td>
+            <td>Database</td>
+        </tr>
+         <tr>
+            <td>ExpressJS</td>
+            <td>NodeJS Web Framework</td>
+        </tr>
+        <tr>
+            <td>NodeJS</td>
+            <td>JavaScript Web Server</td>
+        </tr>
+       <tr>
+            <td>React JS</td>
+            <td>Client-side JavaScript framework (Front-End)</td>
+        </tr>
+</tbody>
+</table>
 
 ## Konsep OOP
-
+lorem ipsum
 ## Tipe Design Pengembangan
+Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern 
 
 ## Hasil & Pembahasan
 ### Use Case Diagram
@@ -42,12 +73,33 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ![Activity Diagram](https://user-images.githubusercontent.com/47895564/120601941-b6f9b280-c474-11eb-8aaa-89d3de9bed3d.png)
 
 ### Class Diagram
-![Project PSBO-class diagram](https://user-images.githubusercontent.com/46121487/120478497-1bfecb00-c3d7-11eb-9a12-77b0582069fe.png)
+![Project PSBO-class diagram (3)](https://user-images.githubusercontent.com/46121487/121803318-1cb31f00-cc6b-11eb-86d9-851eb4a5a004.png)
 
 ### Entity Relationship Diagram
+![Project PSBO-class diagram (2)](https://user-images.githubusercontent.com/46121487/121803307-10c75d00-cc6b-11eb-8654-ed84afc2058c.png)
+
 ### Arsitektur Sistem
+![Project PSBO-Arsitektur Sistem](https://user-images.githubusercontent.com/46121487/121877825-3f116f00-cd35-11eb-8051-0964dcff6748.png)
+
 ### Fungsi Utama
+- Mahasiswa
+  - Membuat pengajuan insentif
+  - Melihat progress pengajuan
+- Admin
+  - Melihat pengajuan insentif mahasiswa
+  - Mengubah status pengajuan mahasiswa
+
 ### Fungsi CRUD
+#### CREATE Function
+- Membuat pengajuan insentif (Mahasiswa)
+#### READ Function
+- Melihat progress pengajuan (Mahasiswa)
+- Melihat pengajuan insentif mahasiswa (Admin)
+#### UPDATE Function
+- Mengubah status pengajuan mahasiswa (Admin)
+#### DELETE Function
+- Menghapus pengajuan insentif (Mahasiswa)
+- Menghapus pengajuan mahasiswa (Admin)
 
 ## Hasil Implementasi
 ### Screenshot Sistem
@@ -55,3 +107,33 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 
 ## Saran Pengembangan Selanjutnya
 ## Job Desc
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Imam Mulhaq Rosyadi</td>
+            <td>Project Manager</td>
+        </tr>
+         <tr>
+            <td>Bima Aulia</td>
+            <td>Front-end Developer</td>
+        </tr>
+        <tr>
+            <td>Faishal Wicaksono</td>
+            <td>Back-end Developer</td>
+        </tr>
+       <tr>
+            <td>Muhammad Naufal Abdillah</td>
+            <td>Back-end Developer</td>
+        </tr>
+      <tr>
+            <td>Fitra Andika</td>
+            <td>UI Designer</td>
+        </tr>
+</tbody>
+</table>
