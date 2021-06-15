@@ -8,6 +8,10 @@
   letter-spacing: 0.15px;
 }
 
+.label.labelColor {
+  color: #042040;
+}
+
 .label .colon {
   font-weight: 400;
 }

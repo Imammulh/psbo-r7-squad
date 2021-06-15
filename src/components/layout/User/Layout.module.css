@@ -26,3 +26,8 @@
   color: white;
   margin: 16px 0 8px;
 }
+
+.active {
+  font-weight: bold;
+  background-color: red;
+}

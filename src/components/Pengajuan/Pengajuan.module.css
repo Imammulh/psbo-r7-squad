@@ -1,0 +1,136 @@
+/* Pengajuan List */
+.titlePengajuan {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+  color: #96a3b3;
+}
+.jumlah {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  color: #1c7bd9;
+}
+.bottomText {
+  margin: 0 !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+  color: #042040;
+}
+.acc {
+  color: #42b757;
+}
+.deny {
+  color: #f13426;
+}
+
+/* Lacak Pengajuan */
+.card {
+  border: 1px solid #ebf0f5;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.badge {
+  border-radius: 4px;
+  width: 80px;
+  text-align: center;
+  padding: 4px 12px;
+}
+
+.accepted {
+  background: #42b757;
+  color: #ffffff;
+}
+
+.pending {
+  background: #ebf0f5;
+  color: #042040;
+}
+
+.status {
+  padding-left: 6px;
+  letter-spacing: 0.25px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #042040;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #042040;
+}
+
+.desc {
+  color: #96a3b3;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+}
+
+/* Modal */
+.label {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  font-weight: 600;
+  color: #96a3b3;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+}
+
+.colon {
+  display: inline;
+  font-weight: 400;
+}
+
+.timeline {
+  background-color: #f7f9fc;
+}
+
+.timeline .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #042040;
+  margin-bottom: 8px;
+}
+.icon {
+  display: flex;
+  color: #1c7bd9;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.icon {
+  display: flex;
+  color: #1c7bd9;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.icon.diterima {
+  color: #42b757;
+}
+
+.detailStatus {
+  color: #96a3b3;
+  font-size: 16px;
+}
+
+.detailStatus .bolder {
+  font-weight: 600;
+}

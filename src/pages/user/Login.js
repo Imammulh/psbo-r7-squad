@@ -1,13 +1,19 @@
 import LoginForm from "../../components/Form/LoginForm";
-import classes from "../../components/Form/Form.module.css";
+import { Container } from "react-bootstrap";
+import classes from "./Login.module.css";
 
 function LoginPage() {
   return (
-    <section className={classes.container}>
-      <h1>Log In</h1>
-      <p>Masuk terlebih dahulu untuk melakukan pengajuan insentif lomba</p>
-      <LoginForm />
-    </section>
+    <Container className="d-flex flex-column align-items-center p-5">
+      <div className="py-5">
+        <img src="/logo/logoIPB.svg" alt="ipb" />
+      </div>
+      <div>
+        <h1 className={classes.title}>Log In</h1>
+        <p className={classes.desc}>Masuk terlebih dahulu untuk melakukan pengajuan insentif lomba</p>
+        <LoginForm />
+      </div>
+    </Container>
   );
 }
 

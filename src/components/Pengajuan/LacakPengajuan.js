@@ -1,6 +1,6 @@
 import MyCard from "../ui/MyCard";
 import StatusPengajuan from "./StatusPengajuan";
-import classes from "./StatusPengajuan.module.css";
+import classes from "./Pengajuan.module.css";
 
 function LacakPengajuan() {
   return (

@@ -59,11 +59,37 @@ body {
   color: white !important;
 }
 
+.ant-menu-item a:hover,
+.ant-menu-submenu-arrow:hover,
+.ant-menu-submenu-expand-icon:hover {
+  color: #1890ff !important;
+}
+
 .ant-menu-item-selected a,
 .ant-menu-item-selected a:hover {
   color: #1890ff !important;
 }
 
+.ant-select-selector {
+  background: #f7f9fc !important;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ebf0f5 !important;
+  font-size: 16px !important;
+  display: block;
+  height: calc(1.5em + 0.75rem + 2px) !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.ant-menu-submenu-selected {
+  color: white !important;
+}
+
+.ant-select-selection-placeholder {
+  color: #6c757d !important;
+}
 @media screen and (max-width: 992px) {
   .content-layout {
     margin-left: 0;

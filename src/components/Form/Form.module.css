@@ -3,9 +3,13 @@
   justify-content: space-between;
   padding-right: 0;
   font-weight: 600;
-  color: #96a3b3;
+  color: #042040;
   font-size: 16px;
   letter-spacing: 0.15px;
+}
+
+.labelLogin {
+  color: #96a3b3;
 }
 
 .colon {
@@ -18,18 +22,21 @@
   border: 1px solid #ebf0f5;
 }
 
+.buttonPrimary {
+  color: white;
+  background: #1c7bd9;
+  border: 1px solid #0061c1;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+}
+
+.minWidth {
+  min-width: 40%;
+}
+
 @media screen and (max-width: 992px) {
   .colon {
     display: none;
   }
-}
-
-/* Login */
-.container {
-  display: flex;
-  width: 30%;
-  margin: auto;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
 }

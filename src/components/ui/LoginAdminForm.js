@@ -1,4 +1,5 @@
 import { Form, Button } from "react-bootstrap";
+import classes from "../Form/Form.module.css";
 
 function LoginAdminForm() {
   function ShowPasswordHandler() {
@@ -10,30 +11,22 @@ function LoginAdminForm() {
     }
   }
   return (
-    <div>
+    <div className="py-3">
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Username</Form.Label>
-          <Form.Control type="text" placeholder="Masukkan username" />
+          <Form.Label className={classes.labelLogin}>Username</Form.Label>
+          <Form.Control type="text" className={classes.input} placeholder="Masukkan username" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            placeholder="Masukkan password"
-            id="myInput"
-          />
+          <Form.Label className={classes.labelLogin}>Password</Form.Label>
+          <Form.Control type="password" className={classes.input} placeholder="Masukkan password" id="myInput" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check
-            type="checkbox"
-            label="Tampilkan password"
-            onClick={ShowPasswordHandler}
-          />
+          <Form.Check type="checkbox" className={classes.labelLogin} label="Tampilkan password" onClick={ShowPasswordHandler} />
         </Form.Group>
-        <div className="d-grid">
-          <Button variant="primary" type="submit">
+        <div className="d-flex justify-content-center pt-3">
+          <Button className={classes.buttonPrimary} type="submit">
             Submit
           </Button>
         </div>
