@@ -1,4 +1,7 @@
-# Sistem Insentif Lomba IPB-P2-Kelompok 10 
+# 💰 Sistem Insentif Lomba IPB-P2-Kelompok 10 
+
+## Back-end
+[Back-end aplikasi](https://github.com/bimaaul/psbo-backend)
 
 ## Deskripsi Aplikasi
 Alur proses pengajuan bantuan dana dan insentif lomba yang dirasa sulit berdampak terhadap peningkatan prestasi civitas IPB. Menyadari hal itu, perlu adanya sistem yang membantu mengatasi masalah ini. Oleh karena itu kami mengusulkan adanya fitur Insentif pada website prestasi.ipb.ac.id. Dengan adanya fitur Insentif ini civitas IPB dapat mengajukan insentif perlombaan yang telah dimenangkan sehingga bisa mendapatkan uang insentif yang telah dijanjikan pihak kampus. Selain itu civitas IPB juga bisa mendapatkan informasi lebih lanjut terkait pengajuan insentif lomba yang diikuti sehingga bisa melacak apakah insentif sudah diberikan atau belum karena ada kendala tertentu. 
@@ -15,23 +18,50 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 
 ## Lingkungan Pengembangan
 ### Software
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="80" height="80" />
 - Visual Studio Code
-
-
-<img src="https://miro.medium.com/max/3010/1*QOx_tPV5wJnhTzAGhfIiLA.png"  height="80" />
 - Postman
+- Insomnia
+- Github
+- Edge
+- Chrome
+- Trello
 
 ### Hardware
+- Processors: intel i5-7200
+- Memory: RAM 8GB
+- Vga: NVIDIA Geforce 940MX
 
 
 ### Tech Stack
-- React JS
-- Node JS
-- Mongo DB
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Fungsi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MongoDB</td>
+            <td>Database</td>
+        </tr>
+         <tr>
+            <td>ExpressJS</td>
+            <td>NodeJS Web Framework</td>
+        </tr>
+        <tr>
+            <td>NodeJS</td>
+            <td>JavaScript Web Server</td>
+        </tr>
+       <tr>
+            <td>React JS</td>
+            <td>Client-side JavaScript framework (Front-End)</td>
+        </tr>
+</tbody>
+</table>
 
 ## Konsep OOP
-
+lorem ipsum
 ## Tipe Design Pengembangan
 Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern 
 
@@ -54,12 +84,11 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 ### Fungsi Utama
 - Mahasiswa
   - Membuat pengajuan insentif
-  - Menghapus pengajuan insentif
   - Melihat progress pengajuan
 - Admin
   - Melihat pengajuan insentif mahasiswa
   - Mengubah status pengajuan mahasiswa
-  - Menghapus pengajuan mahasiswa
+
 ### Fungsi CRUD
 #### CREATE Function
 - Membuat pengajuan insentif (Mahasiswa)
@@ -78,3 +107,33 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 
 ## Saran Pengembangan Selanjutnya
 ## Job Desc
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Imam Mulhaq Rosyadi</td>
+            <td>Project Manager</td>
+        </tr>
+         <tr>
+            <td>Bima Aulia</td>
+            <td>Front-end Developer</td>
+        </tr>
+        <tr>
+            <td>Faishal Wicaksono</td>
+            <td>Back-end Developer</td>
+        </tr>
+       <tr>
+            <td>Muhammad Naufal Abdillah</td>
+            <td>Back-end Developer</td>
+        </tr>
+      <tr>
+            <td>Fitra Andika</td>
+            <td>UI Designer</td>
+        </tr>
+</tbody>
+</table>
