@@ -67,7 +67,7 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 
 ## Hasil & Pembahasan
 ### Use Case Diagram
-![Project PSBO-Use case](https://user-images.githubusercontent.com/46121487/120478195-cc200400-c3d6-11eb-82ed-eb47a7e8833a.png)
+![Project PSBO-Use case (3)](https://user-images.githubusercontent.com/46121487/122192896-41eb9b80-cebe-11eb-8408-af0ffbdb2280.png)
 
 ### Activity Diagram
 ![Activity Diagram](https://user-images.githubusercontent.com/47895564/120601941-b6f9b280-c474-11eb-8aaa-89d3de9bed3d.png)
