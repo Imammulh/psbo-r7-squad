@@ -122,13 +122,12 @@ function Internasional() {
             <Form.Label column sm={2} className={classes.label}>
               Berkas Pendukung <span className={classes.colon}>:</span>
             </Form.Label>
-            <Col sm={8} className="d-flex align-items-center">
-              <Form.Control type="file" />
-              {/* <Form.Group as={Row} controlId="prestasi">
+            <Col sm={8}>
+              <Form.Group as={Row} controlId="prestasi">
                 <Form.Label column sm={2} className={classes.label}>
                   Sertifikat<span className={classes.colon}>:</span>
                 </Form.Label>
-                <Col sm={8} className="d-flex align-items-center">
+                <Col sm={9} className="d-flex align-items-center">
                   <Form.Control type="file" />
                 </Col>
               </Form.Group>
@@ -137,7 +136,7 @@ function Internasional() {
                 <Form.Label column sm={2} className={classes.label}>
                   Foto Penyerahan <span className={classes.colon}>:</span>
                 </Form.Label>
-                <Col sm={8} className="d-flex align-items-center">
+                <Col sm={9} className="d-flex align-items-center">
                   <Form.Control type="file" />
                 </Col>
               </Form.Group>
@@ -146,20 +145,20 @@ function Internasional() {
                 <Form.Label column sm={2} className={classes.label}>
                   LoA <span className={classes.colon}>:</span>
                 </Form.Label>
-                <Col sm={8} className="d-flex align-items-center">
+                <Col sm={9} className="d-flex align-items-center">
                   <Form.Control type="file" />
                 </Col>
-              </Form.Group> */}
+              </Form.Group>
             </Col>
           </Form.Group>
-          {/* <Form.Group as={Row} className="mb-3" controlId="prestasi">
+          <Form.Group as={Row} className="mb-3" controlId="prestasi">
             <Form.Label column sm={2} className={classes.label}>
               Surat Izin Akademik<span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8} className="d-flex align-items-center">
               <Form.Control type="file" />
             </Col>
-          </Form.Group> */}
+          </Form.Group>
           <Row>
             <Col sm={2}></Col>
             <Col>
