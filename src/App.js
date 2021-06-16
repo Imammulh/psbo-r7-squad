@@ -23,7 +23,20 @@ const App = () => {
     }
   };
 
-  const LoginRoute = ({ user, ...props }) => (user ? <Redirect to="/" /> : <Route {...props} />);
+  const AdminRoute = ({ admin, ...props }) => {
+    if (!!admin.isAdmin) {
+      return <Route {...props} />;
+    } else {
+      return <Redirect to="/login-admin" />;
+    }
+  };
+
+  const LoginRoute = ({ user, ...props }) => {
+    if (user) {
+      if (user.isAdmin) return <Redirect to="/dashboard-admin" />;
+      else return <Redirect to="/" />;
+    } else return <Route {...props} />;
+  };
 
   return (
     <Switch>
@@ -33,9 +46,9 @@ const App = () => {
       <PrivateRoute exact path="/biodata/edit" user={user} component={EditBiodata} />
       <PrivateRoute exact path="/pengajuan-insentif/internasional" user={user} component={Internasional} />
       <PrivateRoute exact path="/pengajuan-insentif/nasional" user={user} component={Nasional} />
-      <Route path="/login-admin" component={LoginAdmin} />
-      <Route path="/dashboard-admin" component={DashboardAdmin} />
-      <Route path="/form-insentif-nasional" component={InsentifNasional} />
+      <LoginRoute path="/login-admin" user={user} component={LoginAdmin} />
+      <AdminRoute path="/dashboard-admin" admin={user} component={DashboardAdmin} />
+      <AdminRoute path="/form-insentif-nasional" admin={user} component={InsentifNasional} />
     </Switch>
   );
 };
