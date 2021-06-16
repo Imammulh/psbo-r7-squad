@@ -8,6 +8,7 @@ import classes from "./Pengajuan.module.css";
 
 function StatusPengajuan(props) {
   const [show, setShow] = useState(false);
+  const data = props.data;
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -22,9 +23,11 @@ function StatusPengajuan(props) {
           }}
         >
           <div>
-            <h3 className={classes.title}>Title</h3>
-            <p className={classes.desc}>Kategori • Date • Rank</p>
-            <div className={`${classes.badge} ${props.status === "accepted" ? classes.accepted : classes.pending}`}>{props.text}</div>
+            <h3 className={classes.title}>{data.namaKegiatan}</h3>
+            <p className={classes.desc}>
+              Insentif {data.kategori === "Internasional" ? "Internasional" : "Nasional"} • {data.createdAt} • {data.prestasi}
+            </p>
+            <div className={`${classes.badge} ${data.status === "Diterima" ? classes.accepted : classes.pending}`}>{data.status}</div>
           </div>
           <div>
             <Button
@@ -58,7 +61,7 @@ function StatusPengajuan(props) {
                     </div>
                     <div className={classes.detailStatus}>
                       <span className={classes.bolder}>Pengajuan dibuat</span> <br />
-                      28 Mei 2021 13.00 WIB
+                      {data.createdAt}
                     </div>
                   </Col>
                   <Col xs={12} lg={4} className="d-flex mb-2">
@@ -67,18 +70,20 @@ function StatusPengajuan(props) {
                     </div>
                     <div className={classes.detailStatus}>
                       <span className={classes.bolder}> Menunggu Verifikasi</span> <br />
-                      28 Mei 2021 13.00 WIB
+                      {data.createdAt}
                     </div>
                   </Col>
-                  <Col xs={12} lg={4} className="d-flex mb-2">
-                    <div className={`${classes.icon} ${classes.diterima}`}>
-                      <FaClipboardCheck style={{ fontSize: "32px", marginRight: "6px" }} />
-                    </div>
-                    <div className={classes.detailStatus}>
-                      <span className={classes.bolder}> Pengajuan Diterima</span> <br />
-                      28 Mei 2021 13.00 WIB
-                    </div>
-                  </Col>
+                  {data.status === "Diterima" && (
+                    <Col xs={12} lg={4} className="d-flex mb-2">
+                      <div className={`${classes.icon} ${classes.diterima}`}>
+                        <FaClipboardCheck style={{ fontSize: "32px", marginRight: "6px" }} />
+                      </div>
+                      <div className={classes.detailStatus}>
+                        <span className={classes.bolder}> Pengajuan Diterima</span> <br />
+                        {data.updatedAt}
+                      </div>
+                    </Col>
+                  )}
                 </Row>
               </Card.Body>
             </Card>
@@ -88,79 +93,69 @@ function StatusPengajuan(props) {
                   <Col>
                     <h3 className={`${classes.title} mb-0`}>Data Pengajuan Insentif Nasional</h3>
                   </Col>
-                  <Button
-                    type="danger"
-                    size="small"
-                    style={{
-                      backgroundColor: "#F13426",
-                      border: "1px solid #C22D22",
-                      borderRadius: "4px",
-                      fontWeight: 400,
-                    }}
-                  >
-                    Hapus Pengajuan
-                  </Button>
+                  {/* {data.status === "Pending" && 
+                    <Button
+                      type="danger"
+                      size="small"
+                      style={{
+                        backgroundColor: "#F13426",
+                        border: "1px solid #C22D22",
+                        borderRadius: "4px",
+                        fontWeight: 400,
+                      }}
+                    >
+                      Hapus Pengajuan
+                    </Button>
+                  } */}
                 </Row>
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Nama Kegiatan <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>Imam Mulhaq</Col>
+                  <Col className={classes.desc}>{data.namaKegiatan}</Col>
                 </Row>
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Jenis Lomba <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>G64180063</Col>
+                  <Col className={classes.desc}>{data.jenisLomba}</Col>
                 </Row>
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Skala Kegiatan <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>Matematika dan Ilmu Pengetahuan Alam</Col>
+                  <Col className={classes.desc}>{data.skalaKegiatan}</Col>
                 </Row>
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Prestasi yang Dicapai <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>Ilmu Komputer</Col>
+                  <Col className={classes.desc}>{data.prestasi}</Col>
                 </Row>
-                <Row className="d-flex mb-2 align-items-center">
+                {/* <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Anggota Tim <span className={classes.colon}>:</span>
                   </Col>
                   <Col className={classes.desc}>emailimam@gmail.com</Col>
-                </Row>
+                </Row> */}
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Penyelenggara <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>082288983318</Col>
-                </Row>
-                <Row className="d-flex mb-2 align-items-center">
-                  <Col sm={6} md={5} lg={4} className={classes.label}>
-                    Jumlah Tim Peserta <span className={classes.colon}>:</span>
-                  </Col>
-                  <Col className={classes.desc}>911 (BNI)</Col>
-                </Row>
-                <Row className="d-flex mb-2 align-items-center">
-                  <Col sm={6} md={5} lg={4} className={classes.label}>
-                    Jumlah Universitas <span className={classes.colon}>:</span>
-                  </Col>
-                  <Col className={classes.desc}>911 (BNI)</Col>
+                  <Col className={classes.desc}>{data.penyelenggara}</Col>
                 </Row>
                 <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Tanggal Pelaksanaan <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>911 (BNI)</Col>
+                  <Col className={classes.desc}>{data.tanggalPelaksanaan}</Col>
                 </Row>
-                <Row className="d-flex mb-2 align-items-center">
+                {/* <Row className="d-flex mb-2 align-items-center">
                   <Col sm={6} md={5} lg={4} className={classes.label}>
                     Berkas Pendukung <span className={classes.colon}>:</span>
                   </Col>
-                  <Col className={classes.desc}>911 (BNI)</Col>
-                </Row>
+                  <Col className={classes.desc}>-</Col>
+                </Row> */}
                 <Row className="justify-content-end align-items-center">
                   <Button
                     style={{
