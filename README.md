@@ -60,7 +60,11 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ## Konsep OOP
 lorem ipsum
 ## Tipe Design Pengembangan
-Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern 
+Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern MVC (Model View controller). MVC memecah sebuah aplikasi menjadi tiga bagian, yaitu model yang berhubungan dengan database, view yang berurusan dengan tampilan, dan controller yang mengatur alur jalannya aplikasi.
+<br /> <br />
+![image](https://user-images.githubusercontent.com/46121487/122526377-6b363400-d044-11eb-8428-81a0e9c7dbfc.png)
+
+
 
 ## Hasil & Pembahasan
 ### Use Case Diagram
@@ -73,7 +77,7 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 ![Project PSBO-class diagram (3)](https://user-images.githubusercontent.com/46121487/121803318-1cb31f00-cc6b-11eb-86d9-851eb4a5a004.png)
 
 ### Entity Relationship Diagram
-![Project PSBO-class diagram (2)](https://user-images.githubusercontent.com/46121487/121803307-10c75d00-cc6b-11eb-8654-ed84afc2058c.png)
+![Project PSBO-ERD (2)](https://user-images.githubusercontent.com/46121487/122526589-aa648500-d044-11eb-842b-a4a90f536086.png)
 
 ### Arsitektur Sistem
 ![Project PSBO-Arsitektur Sistem](https://user-images.githubusercontent.com/46121487/121877825-3f116f00-cd35-11eb-8051-0964dcff6748.png)
@@ -144,3 +148,8 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
         </tr>
 </tbody>
 </table>
+
+## Lampiran
+
+### Trello
+![image](https://user-images.githubusercontent.com/46121487/122527645-b69d1200-d045-11eb-8744-a1206c577f85.png)
