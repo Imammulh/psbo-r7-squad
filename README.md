@@ -3,6 +3,9 @@
 ## Back-end
 [Back-end aplikasi](https://github.com/bimaaul/psbo-backend)
 
+## Figma
+[Link Figma](https://www.figma.com/file/k8vbxBA6bLo3caRksYVH80/PSBO-Kelompok-10?node-id=1%3A2)
+
 ## Deskripsi Aplikasi
 Alur proses pengajuan bantuan dana dan insentif lomba yang dirasa sulit berdampak terhadap peningkatan prestasi civitas IPB. Menyadari hal itu, perlu adanya sistem yang membantu mengatasi masalah ini. Oleh karena itu kami mengusulkan adanya fitur Insentif pada website prestasi.ipb.ac.id. Dengan adanya fitur Insentif ini civitas IPB dapat mengajukan insentif perlombaan yang telah dimenangkan sehingga bisa mendapatkan uang insentif yang telah dijanjikan pihak kampus. Selain itu civitas IPB juga bisa mendapatkan informasi lebih lanjut terkait pengajuan insentif lomba yang diikuti sehingga bisa melacak apakah insentif sudah diberikan atau belum karena ada kendala tertentu. 
 Apabila uang insentif telah dikirim pihak kampus nantinya mahasiswa yang melakukan pengajuan akan mendapatkan email notifikasi bahwa uang insentif sudah berhasil dikirim. 
@@ -18,18 +21,12 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 
 ## Lingkungan Pengembangan
 ### Software
-- Visual Studio Code
-- Postman
-- Insomnia
-- Github
-- Edge
-- Chrome
-- Trello
+![Frame 1](https://user-images.githubusercontent.com/46121487/122228789-65c0d880-cee2-11eb-806d-21b5b52f3a5e.png)
+
 
 ### Hardware
-- Processors: intel i5-7200
+- Processors: Intel i5-7200
 - Memory: RAM 8GB
-- Vga: NVIDIA Geforce 940MX
 
 
 ### Tech Stack
@@ -63,7 +60,11 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 ## Konsep OOP
 lorem ipsum
 ## Tipe Design Pengembangan
-Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern 
+Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern MVC (Model View controller). MVC memecah sebuah aplikasi menjadi tiga bagian, yaitu model yang berhubungan dengan database, view yang berurusan dengan tampilan, dan controller yang mengatur alur jalannya aplikasi.
+<br /> <br />
+![image](https://user-images.githubusercontent.com/46121487/122526377-6b363400-d044-11eb-8428-81a0e9c7dbfc.png)
+
+
 
 ## Hasil & Pembahasan
 ### Use Case Diagram
@@ -76,7 +77,7 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 ![Project PSBO-class diagram (3)](https://user-images.githubusercontent.com/46121487/121803318-1cb31f00-cc6b-11eb-86d9-851eb4a5a004.png)
 
 ### Entity Relationship Diagram
-![Project PSBO-class diagram (2)](https://user-images.githubusercontent.com/46121487/121803307-10c75d00-cc6b-11eb-8654-ed84afc2058c.png)
+![Project PSBO-ERD (2)](https://user-images.githubusercontent.com/46121487/122526589-aa648500-d044-11eb-842b-a4a90f536086.png)
 
 ### Arsitektur Sistem
 ![Project PSBO-Arsitektur Sistem](https://user-images.githubusercontent.com/46121487/121877825-3f116f00-cd35-11eb-8051-0964dcff6748.png)
@@ -88,6 +89,7 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 - Admin
   - Melihat pengajuan insentif mahasiswa
   - Mengubah status pengajuan mahasiswa
+  - Membuka dan mengakhiri periode pengisian formulir input
 
 ### Fungsi CRUD
 #### CREATE Function
@@ -97,15 +99,24 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
 - Melihat pengajuan insentif mahasiswa (Admin)
 #### UPDATE Function
 - Mengubah status pengajuan mahasiswa (Admin)
+- Membuka dan mengakhiri periode pengisian formulir input (Admin)
 #### DELETE Function
 - Menghapus pengajuan insentif (Mahasiswa)
 - Menghapus pengajuan mahasiswa (Admin)
 
 ## Hasil Implementasi
 ### Screenshot Sistem
+
 ### Link Aplikasi (Opsional)
 
 ## Saran Pengembangan Selanjutnya
+- Pengintegrasian dengan API IPB untuk login dan mendapatkan data mahasiswa
+- Menyelesaikan fitur untuk membuka dan menutup periode pengisian formulir oleh admin
+- Menambahkan fitur untuk kustomisasi input formulir oleh admin
+- Menambahkan fitur view file oleh admin
+- Menambahkan fitur download excel oleh admin
+- Menambahkan fitur notifikasi melalui email ketika mengubah status pengajuan
+
 ## Job Desc
 <table>
     <thead>
@@ -137,3 +148,8 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern
         </tr>
 </tbody>
 </table>
+
+## Lampiran
+
+### Trello
+![image](https://user-images.githubusercontent.com/46121487/122527645-b69d1200-d045-11eb-8744-a1206c577f85.png)
