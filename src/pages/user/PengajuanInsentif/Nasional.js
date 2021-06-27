@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Form, Col, Row } from "react-bootstrap";
-import { Upload, message, Button, Select, notification  } from "antd";
-import { SmileOutlined, FrownOutlined } from '@ant-design/icons';
+import { Upload, message, Button, Select, notification } from "antd";
+import { SmileOutlined, FrownOutlined } from "@ant-design/icons";
 import { UserContext } from "../../../context/UserContext";
 import UserLayout from "../../../components/layout/User/UserLayout";
 import axios from "axios";
@@ -47,15 +47,16 @@ function Nasional() {
     notification.open({
       message,
       description,
-      icon: status ? <SmileOutlined style={{ color: '#108ee9' }} /> : <FrownOutlined style={{ color: 'red' }}/>,
+      icon: status ? <SmileOutlined style={{ color: "#108ee9" }} /> : <FrownOutlined style={{ color: "red" }} />,
     });
   };
 
   const handleOnSubmit = (e) => {
     axios
       .post(
-        "http://localhost:4000/api/employee/store",
+        "https://radiant-cliffs-45593.herokuapp.com/api/employee/store",
         {
+          userId: user.id,
           namaKegiatan: insentif.namaKegiatan,
           jenisLomba: insentif.jenisLomba,
           skalaKegiatan: insentif.skalaKegiatan,
@@ -75,13 +76,15 @@ function Nasional() {
           jumlahTim: insentif.jumlahTim,
           jumlahUniv: insentif.jumlahUniv,
           tanggalPelaksanaan: insentif.tanggalPelaksanaan,
-        }, {headers: { "Authorization": `Bearer ${user.token}` }})
+        },
+        { headers: { Authorization: `Bearer ${user.token}` } }
+      )
       .then((res) => {
-        if(res.data.message === 'Ticket added succesfully') {
+        if (res.data.message === "Ticket added succesfully") {
           openNotification("Pengajuan Berhasil Dikirim", "Terimakasih atas pengajuanmu, mohon tunggu hasil review dari tim kami ya.", true);
           setInsentif(initialState);
         } else {
-          openNotification("Pengajuan Berhasil Dikirim", "Terimakasih atas pengajuanmu, mohon tunggu hasil review dari tim kami ya.", false)
+          openNotification("Pengajuan Berhasil Dikirim", "Terimakasih atas pengajuanmu, mohon tunggu hasil review dari tim kami ya.", false);
         }
       })
       .catch((err) => {
@@ -275,7 +278,7 @@ function Nasional() {
           <Row>
             <Col sm={2}></Col>
             <Col>
-              <Button type="submit" onClick={handleOnSubmit} className={`${classes.smallBtn} px-3 mt-2`}>
+              <Button className={`${classes.smallBtn} px-3 mt-2`} type="submit" onClick={handleOnSubmit}>
                 Submit
               </Button>
             </Col>

@@ -135,3 +135,9 @@
 .detailStatus .bolder {
   font-weight: 600;
 }
+
+@media screen and (max-width: 992px) {
+  .colon {
+    display: none;
+  }
+}

@@ -22,40 +22,28 @@ function EditBiodata() {
           </Link>
         </div>
         <Form>
-          <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
+          <Row className="d-flex mb-2 align-items-center">
+            <Col sm={2} className={classes.label}>
               Nama Lengkap <span className={classes.colon}>:</span>
-            </Form.Label>
-            <Col sm={8}>
-              <Form.Control type="text" className={classes.input} value={user.nama} />
             </Col>
-          </Form.Group>
-          <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
+            <Col className={classes.desc}>{user.nama}</Col>
+          </Row>
+          <Row className="d-flex mb-2 align-items-center">
+            <Col sm={2} className={classes.label}>
               NIM <span className={classes.colon}>:</span>
-            </Form.Label>
-            <Col sm={8}>
-              <Form.Control type="text" className={classes.input} value={user.nim} />
             </Col>
-          </Form.Group>
-          <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
-              Fakultas <span className={classes.colon}>:</span>
-            </Form.Label>
-            <Col sm={8}>
-              <Form.Control type="text" className={classes.input} value={user.fakultas} />
+            <Col className={classes.desc}>{user.nim}</Col>
+          </Row>
+          <Row className="d-flex mb-2 align-items-center">
+            <Col sm={2} className={classes.label}>
+              Fakultas / Department <span className={classes.colon}>:</span>
             </Col>
-          </Form.Group>
-          <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
-              Department <span className={classes.colon}>:</span>
-            </Form.Label>
-            <Col sm={8}>
-              <Form.Control type="text" className={classes.input} value={user.departemen} />
+            <Col className={classes.desc}>
+              Fakultas {user.fakultas} / Department <span className={classes.colon}></span>
             </Col>
-          </Form.Group>
-          <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
+          </Row>
+          <Form.Group as={Row} className="mb-3 mt-3 align-items-center" controlId="nama">
+            <Form.Label column sm={2} className={classes.label}>
               Email <span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8}>
@@ -63,7 +51,7 @@ function EditBiodata() {
             </Col>
           </Form.Group>
           <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
+            <Form.Label column sm={2} className={classes.label}>
               No Handphone <span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8}>
@@ -71,7 +59,7 @@ function EditBiodata() {
             </Col>
           </Form.Group>
           <Form.Group as={Row} className="mb-3 align-items-center" controlId="nama">
-            <Form.Label column sm={2} className={`${classes.label} ${classes.labelColor}`}>
+            <Form.Label column sm={2} className={classes.label}>
               No Rekening <span className={classes.colon}>:</span>
             </Form.Label>
             <Col sm={8}>

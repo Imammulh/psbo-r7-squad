@@ -38,7 +38,7 @@ const LoginForm = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/api/login", {
+      .post("https://radiant-cliffs-45593.herokuapp.com/api/login", {
         username: currentUser.email,
         password: currentUser.password,
       })
@@ -46,7 +46,7 @@ const LoginForm = () => {
         const user = res.data.user;
         const token = res.data.token;
         const loginUser = {
-          id: user._id,
+          id: user.id,
           nama: user.nama,
           nim: user.nim,
           fakultas: user.fakultas,
@@ -54,6 +54,7 @@ const LoginForm = () => {
           email: user.email,
           phone: user.phone,
           noRekening: user.noRekening,
+          isAdmin: user.isAdmin,
           token,
         };
         setUser(loginUser);

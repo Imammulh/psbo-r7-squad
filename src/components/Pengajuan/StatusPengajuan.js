@@ -8,6 +8,14 @@ import classes from "./Pengajuan.module.css";
 
 function StatusPengajuan(props) {
   const [show, setShow] = useState(false);
+
+  const formatter = new Intl.DateTimeFormat("en-GB", {
+    year: "numeric",
+    month: "long",
+    day: "2-digit",
+  });
+  // {formatter.format(Date.parse(date))}
+
   const data = props.data;
 
   const handleClose = () => setShow(false);

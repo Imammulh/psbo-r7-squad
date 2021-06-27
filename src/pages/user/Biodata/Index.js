@@ -33,15 +33,11 @@ function Biodata() {
         </Row>
         <Row className="d-flex mb-2 align-items-center">
           <Col sm={2} className={classes.label}>
-            Fakultas <span className={classes.colon}>:</span>
+            Fakultas / Department <span className={classes.colon}>:</span>
           </Col>
-          <Col className={classes.desc}>{user.fakultas}</Col>
-        </Row>
-        <Row className="d-flex mb-2 align-items-center">
-          <Col sm={2} className={classes.label}>
-            Department <span className={classes.colon}>:</span>
+          <Col className={classes.desc}>
+            Fakultas {user.fakultas} / Department <span className={classes.colon}></span>
           </Col>
-          <Col className={classes.desc}>{user.departemen}</Col>
         </Row>
         <Row className="d-flex mb-2 align-items-center">
           <Col sm={2} className={classes.label}>
