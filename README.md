@@ -116,8 +116,26 @@ Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern MVC (Model View 
 
 ## Hasil Implementasi
 ### Screenshot Sistem
+### User
+![login user](https://user-images.githubusercontent.com/46121487/123547876-b3fc9400-d78c-11eb-96eb-c1d8f94494a6.jpg)
+![dashboardUserHaveData](https://user-images.githubusercontent.com/46121487/123547902-d098cc00-d78c-11eb-93d6-c26d8add0a35.jpg)
+![biodataUser](https://user-images.githubusercontent.com/46121487/123547914-dd1d2480-d78c-11eb-89e0-0b89887f24df.jpg)
+![insentifNasional](https://user-images.githubusercontent.com/46121487/123547928-f0c88b00-d78c-11eb-92a9-d7b88b4b4e55.jpg)
+
+### Admin
+![login admin](https://user-images.githubusercontent.com/46121487/123547939-ffaf3d80-d78c-11eb-8f43-d1e8b17c4136.jpg)
+![dashboardAdmin](https://user-images.githubusercontent.com/46121487/123547951-08077880-d78d-11eb-9cec-92e9c2476040.jpg)
+![tableAdmin](https://user-images.githubusercontent.com/46121487/123547955-0ccc2c80-d78d-11eb-91b3-b501565ebe1e.jpg)
 
 ### Link Aplikasi (Opsional)
+<a href="https://silomba.netlify.app/login">Link Apliasi</a>
+#### Akun user
+email: bimaaulia.15@gmail.com
+pw: 000000
+
+#### Akun admin
+email: bobusang.15@gmail.com
+pw: 000000
 
 ## Saran Pengembangan Selanjutnya
 - Pengintegrasian dengan API IPB untuk login dan mendapatkan data mahasiswa
