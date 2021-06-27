@@ -58,7 +58,17 @@ Data statistik terkait konfirmasi pengiriman uang insentif juga bisa diakses pad
 </table>
 
 ## Konsep OOP
-lorem ipsum
+### Object, Method, dan Property
+- Object di dalam JavaScript adalah variabel yang menyimpan nilai, object adalah representasi nyata dari class
+- Method di dalam JavaScript adalah actions yang dapat dilakukan pada objects. Object method adalah suatu object property yang mengandung definisi fungsi
+- Property di dalam object dapat berupa nilai primitif, object lain, maupun fungsi
+- Singkatnya, Javascript objects adalah containers untuk beberapa value yang disimpan, yaitu property dan method.
+### Class
+- Classes adalah template untuk membuat objects. Classes meng-enkapsulasi data dengan kode untuk bekerja pada data tersebut. Classes di dalam JavaScript dibangun pada prototipe namun juga memiliki beberapa sintaks dan semantics
+### Getter and Setter
+- Getter didefiniskan oleh kata kunci get diikuti oleh suatu fungsi yang dinamai setelah property, tanpa mengambil argumen dan mengembalikan nilai dari property tersebut
+- Setter didefinisikan oleh kata kunci set diikuti oleh suatu fungsi yang dinamai setelah property yang mengambil nilai baru dari property tersebut sebagai parameter.
+
 ## Tipe Design Pengembangan
 Pada Sistem Insentif Lomba IPB, kami menggunakan design pattern MVC (Model View controller). MVC memecah sebuah aplikasi menjadi tiga bagian, yaitu model yang berhubungan dengan database, view yang berurusan dengan tampilan, dan controller yang mengatur alur jalannya aplikasi.
 <br /> <br />
